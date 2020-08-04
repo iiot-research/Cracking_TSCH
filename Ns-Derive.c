@@ -51,8 +51,7 @@ int main(int argc, char *argv[])
     }   
     while (!feof(fp))                                    
     {   
-        fgets(strLine,MAX_LINE,fp);                     
-    //  printf("%s", strLine);                          
+        fgets(strLine,MAX_LINE,fp);                                            
         frn[i] = atoi(strLine);                         // store TSUR 
     //  printf("%d\n", frn[i]);
         i++; 
