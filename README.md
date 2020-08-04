@@ -18,4 +18,7 @@ Sample TUSR data for deriving Ns or its multiple: ./TSUR_2.txt
 
 Sample TSUR data for validation: ./TSUR_3.txt
 
-Codes of deriving Ns or its multiple: ./Ns-Derive.c 
+Codes of deriving Ns or its multiple: ./Ns-Derive.c   
+1. Modify the path of the TSUR file
+2. Comple: gcc -o Ns-Derive Ns-Derive.c
+3. Run: ./Ns-Derive
