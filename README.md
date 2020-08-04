@@ -11,3 +11,8 @@ Xia Cheng, Junyang Shi, and Mo. Sha, “Cracking the Channel Hopping Sequences i
 Under realistic traffic, a transmittermay skip some scheduled time slots at runtime, which breaks therepetition pattern. However, we find that the attacker is able to accomplish the cracking by employing a “trial-and-error” learning method, which traverses all possible values of the combined slotframe length and outputs the actual value or its multiple.
 
 Sample of processed channel activities: ./channel_activities_sample.txt
+TSUR data: ./TSUR_1.txt
+Sample TUSR data for deriving Ns or its multiple: ./TSUR_2.txt
+Sample TSUR data for validation: ./TSUR_3.txt
+
+Codes of deriving Ns or its multiple: ./Ns-Derive.c 
